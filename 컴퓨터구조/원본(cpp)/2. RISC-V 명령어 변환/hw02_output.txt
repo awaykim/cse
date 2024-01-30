@@ -1,0 +1,13 @@
+lw x9,0(x10)
+addi x22,x22,1
+lw x9,120(x10)
+add x9,x21,x9
+addi x9,x9,1
+sw x9,120(x10)
+beq x0,x0,2000
+beq x1,x2,1200
+beq x2,x1,-54
+beq x3,x3,-66
+sw x9,-35(x20)
+lw x8,-47(x21)
+beq x0,x0,-20
